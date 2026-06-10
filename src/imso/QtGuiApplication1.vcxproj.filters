@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BearingBlockdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camerLocatonDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeFineScaleDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GearBoxdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geardialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modleSettingDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="My3MF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtGuiApplication1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="readFileDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReducerDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sensitiveSettingDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XBaseMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplineVolume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplineSurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="singlePic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RWGeometric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyIGA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NurbsTrans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshQuality.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globalFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fragmentDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fragment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FittingBSpline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CToric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PublicModels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nurbs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WingStruct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNurbs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="featurenetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Edge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Face.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FormTrait.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HalfEdge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Homology.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LSCM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XIOStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quadPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="definition.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="glad.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="My3MF.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="XVec.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="XFunction.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="XData.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="XBaseMesh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="varray.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Str.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SplineVolume.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SplineSurface.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="spline.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sislP.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sisl-copyright.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sisl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RWGeometric.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PSOLCT.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PSO.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyIGA.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pointXd.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDoc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshQuality.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NurbsTrans.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kuang.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="globalFunc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Fragment.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FittingBSpline.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CToric.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Nurbs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WingStruct.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CNurbs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureNetwork.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Boundary.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Edge.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Face.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FormTrait.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graph.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HalfEdge.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Homology.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Iterators.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LSCM.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Point.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vertex.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="XIOStream.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lee.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="quadPart.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PublicModels.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\lib3mf.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="BearingBlockdialog.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="camerLocatonDialog.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="ChangeFineScaleDialog.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="GearBoxdialog.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="Geardialog.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="modleSettingDialog.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="QtGuiApplication1.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="readFileDialog.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="ReducerDialog.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="sensitiveSettingDialog.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="win.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="singlePic.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+    <QtMoc Include="fragmentDialog.h">
+      <Filter>Headers</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="image\image.qrc" />
+    <QtRcc Include="shader\shader.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="BearingBlockdialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="camerLocatonDialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="ChangeFineScaleDialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="fragmentDialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="GearBoxdialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="Geardialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="modleSettingDialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="QtGuiApplication1.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="readFileDialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="ReducerDialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="sensitiveSettingDialog.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="singlePic.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{b2337212-ac82-4d75-86a7-c63304f064d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{5cc5bc26-56e8-4ddc-b1f1-78898e24ed28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{617ea6b8-7d04-4d20-be7c-3460f7a691ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f24ac6b1-f670-4454-91d9-90087d6b6b8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

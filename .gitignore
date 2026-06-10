@@ -1,0 +1,29 @@
+# 忽略整个 build 文件夹及其所有内容
+build/
+# 忽略 IDE 相关文件夹
+.vs/
+.vscode/
+# 忽略编译生成的文件夹
+Debug/
+Release/
+x64/
+# 忽略所有编译产物和库文件
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+*.ipch
+*.db
+# 忽略 CMake 生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+# 忽略其他临时文件
+*.user
+*.suo
+*.log
+*.tmp

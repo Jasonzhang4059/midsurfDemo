@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2C4DE0C3-3366-4323-9BBC-309D303BFCAA}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ExecutablePath>E:\quadApp\Models\QtGuiApplication1;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>E:\quadApp\Models\QtGuiApplication1\lib;E:\quadApp\Models\QtGuiApplication1;E:\quadApp\dev\CGAL-5.0.2\include;E:\quadApp\dev\CGAL-5.0.2output\include;E:\quadApp\dev\CGAL-5.0.2\auxiliary\gmp\include;E:\quadApp\dev\boost_1_71_0;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\quadApp\dev\CGAL-5.0.2\auxiliary\gmp\lib;E:\quadApp\dev\CGAL-5.0.2output\lib;E:\quadApp\dev\boost_1_71_0\libs;E:\quadApp\Models\QtGuiApplication1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>E:\quadApp\Model\QtGuiApplication1\lib;E:\quadApp\dev\boost_1_71_0\libs;E:\quadApp\dev\CGAL-5.0.2output\lib;E:\quadApp\dev\CGAL-5.0.2\auxiliary\gmp\lib;E:\Qt\6.5.1\msvc2019_64\lib;E:\Qt\5.14.2\msvc2017_64\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\quadApp\Model\QtGuiApplication1;E:\quadApp\Model\QtGuiApplication1\lib;E:\quadApp\Model\QtGuiApplication1\eigen3;E:\quadApp\Model\QtGuiApplication1\src;E:\quadApp\dev\CGAL-5.0.2\include;E:\quadApp\dev\CGAL-5.0.2output\include;E:\quadApp\dev\CGAL-5.0.2\auxiliary\gmp\include;E:\quadApp\dev\boost_1_71_0;E:\Qt\6.5.1\msvc2019_64\include;E:\Qt\5.14.2\msvc2017_64\include;$(IncludePath)</IncludePath>
+    <ExecutablePath>E:\quadApp\Model\QtGuiApplication1;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QtInstall>Qt5.9.1_msvc2017</QtInstall>
+    <QtModules>core;gui;opengl;widgets</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QtInstall>Qt5.9.1_msvc2017</QtInstall>
+    <QtModules>core;gui;opengl;widgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\chromedownload\yuehu\quadApp\Model\QtGuiApplication1\lib;D:\chromedownload\yuehu\quadApp\dev;D:\chromedownload\yuehu\quadApp\Model\QtGuiApplication1\lib\eigen;D:\chromedownload\yuehu\quadApp\dev\CGAL-5.0.2\include;D:\chromedownload\yuehu\quadApp\dev\boost_1_71_0;D:\chromedownload\yuehu\quadApp\dev\CGAL-5.0.2\auxiliary\gmp\include;D:\chromedownload\yuehu\quadApp\Model\QtGuiApplication1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\OpenCASCADE-7.6.0-vc14-64\opencascade-7.6.0\win64\vc14\lib;E:\quadApp\Model\QtGuiApplication1\lib;%(AdditionalLibraryDirectories);D:\chromedownload\yuehu\quadApp\dev\CGAL-5.0.2\auxiliary\gmp\lib;D:\chromedownload\yuehu\quadApp\dev\CGAL-5.0.2\auxiliary\gmp\lib;D:\chromedownload\yuehu\quadApp\dev\boost_1_71_0\libs;D:\chromedownload\yuehu\quadApp\Model\QtGuiApplication1</AdditionalLibraryDirectories>
+      <AdditionalOptions>/machine:X64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libgmp-10.lib;libmpfr-4.lib;sisl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>D:\chromedownload\yuehu\quadApp\Model\QtGuiApplication1\lib;D:\chromedownload\yuehu\quadApp\dev;D:\chromedownload\yuehu\quadApp\Model\QtGuiApplication1\lib\eigen;D:\chromedownload\yuehu\quadApp\dev\CGAL-5.0.2\include;D:\chromedownload\yuehu\quadApp\dev\boost_1_71_0;D:\chromedownload\yuehu\quadApp\dev\CGAL-5.0.2\auxiliary\gmp\include;D:\chromedownload\yuehu\quadApp\Model\QtGuiApplication1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\quadApp\Models\QtGuiApplication1\lib;%(AdditionalLibraryDirectories);D:\chromedownload\yuehu\quadApp\dev\CGAL-5.0.2\auxiliary\gmp\lib;D:\chromedownload\yuehu\quadApp\dev\CGAL-5.0.2\auxiliary\gmp\lib;D:\chromedownload\yuehu\quadApp\dev\boost_1_71_0\libs;D:\chromedownload\yuehu\quadApp\Model\QtGuiApplication1</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libgmp-10.lib;libmpfr-4.lib;sisl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BearingBlockdialog.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="camerLocatonDialog.cpp" />
+    <ClCompile Include="ChangeFineScaleDialog.cpp" />
+    <ClCompile Include="CNurbs.cpp" />
+    <ClCompile Include="CToric.cpp" />
+    <ClCompile Include="featurenetwork.cpp" />
+    <ClCompile Include="FittingBSpline.cpp" />
+    <ClCompile Include="Fragment.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="fragmentDialog.cpp" />
+    <ClCompile Include="GearBoxdialog.cpp" />
+    <ClCompile Include="Geardialog.cpp" />
+    <ClCompile Include="globalFunc.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MathUtil.cpp" />
+    <ClCompile Include="MeshQuality.cpp" />
+    <ClCompile Include="modleSettingDialog.cpp" />
+    <ClCompile Include="My3MF.cpp" />
+    <ClCompile Include="Nurbs.cpp" />
+    <ClCompile Include="NurbsTrans.cpp" />
+    <ClCompile Include="Option.cpp" />
+    <ClCompile Include="PolyIGA.cpp" />
+    <ClCompile Include="PublicModels.cpp" />
+    <ClCompile Include="QtGuiApplication1.cpp" />
+    <ClCompile Include="quadPart.cpp" />
+    <ClCompile Include="readFileDialog.cpp" />
+    <ClCompile Include="ReducerDialog.cpp" />
+    <ClCompile Include="RWGeometric.cpp" />
+    <ClCompile Include="sensitiveSettingDialog.cpp" />
+    <ClCompile Include="singlePic.cpp" />
+    <ClCompile Include="Spline.cpp" />
+    <ClCompile Include="SplineSurface.cpp" />
+    <ClCompile Include="SplineVolume.cpp" />
+    <ClCompile Include="src\Boundary.cpp" />
+    <ClCompile Include="src\Edge.cpp" />
+    <ClCompile Include="src\Face.cpp" />
+    <ClCompile Include="src\FormTrait.cpp" />
+    <ClCompile Include="src\Graph.cpp" />
+    <ClCompile Include="src\HalfEdge.cpp" />
+    <ClCompile Include="src\Homology.cpp" />
+    <ClCompile Include="src\LSCM.cpp" />
+    <ClCompile Include="src\Mesh.cpp" />
+    <ClCompile Include="src\Point.cpp" />
+    <ClCompile Include="src\Vertex.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp" />
+    <ClCompile Include="win.cpp" />
+    <ClCompile Include="WingStruct.cpp" />
+    <ClCompile Include="XBaseMesh.cpp" />
+    <ClCompile Include="XData.cpp" />
+    <ClCompile Include="XFunction.cpp" />
+    <ClCompile Include="XIOStream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QtGuiApplication1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="BearingBlockdialog.ui" />
+    <QtUic Include="camerLocatonDialog.ui" />
+    <QtUic Include="ChangeFineScaleDialog.ui" />
+    <QtUic Include="fragmentDialog.ui" />
+    <QtUic Include="GearBoxdialog.ui" />
+    <QtUic Include="Geardialog.ui" />
+    <QtUic Include="modleSettingDialog.ui" />
+    <QtUic Include="QtGuiApplication1.ui" />
+    <QtUic Include="readFileDialog.ui" />
+    <QtUic Include="ReducerDialog.ui" />
+    <QtUic Include="sensitiveSettingDialog.ui" />
+    <QtUic Include="singlePic.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="win.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base.h" />
+    <QtMoc Include="BearingBlockdialog.h" />
+    <ClInclude Include="Camera.h" />
+    <QtMoc Include="Geardialog.h" />
+    <QtMoc Include="ReducerDialog.h" />
+    <QtMoc Include="GearBoxdialog.h" />
+    <ClInclude Include="CNurbs.h" />
+    <ClInclude Include="FeatureNetwork.h" />
+    <ClInclude Include="kuang.h" />
+    <ClInclude Include="Lee.h" />
+    <ClInclude Include="MeshQuality.h" />
+    <ClInclude Include="Nurbs.h" />
+    <ClInclude Include="NurbsTrans.h" />
+    <ClInclude Include="Option.h" />
+    <ClInclude Include="PublicModels.h" />
+    <ClInclude Include="quadPart.h" />
+    <ClInclude Include="sisl-copyright.h" />
+    <ClInclude Include="sisl.h" />
+    <ClInclude Include="sislP.h" />
+    <ClInclude Include="spline.h" />
+    <ClInclude Include="src\Boundary.h" />
+    <ClInclude Include="src\Edge.h" />
+    <ClInclude Include="src\Face.h" />
+    <ClInclude Include="src\FormTrait.h" />
+    <ClInclude Include="src\Graph.h" />
+    <ClInclude Include="src\HalfEdge.h" />
+    <ClInclude Include="src\Homology.h" />
+    <ClInclude Include="src\Iterators.h" />
+    <ClInclude Include="src\LSCM.h" />
+    <ClInclude Include="src\Mesh.h" />
+    <ClInclude Include="src\Point.h" />
+    <ClInclude Include="src\Vertex.h" />
+    <ClInclude Include="varray.h" />
+    <ClInclude Include="WingStruct.h" />
+    <ClInclude Include="XBaseMesh.h" />
+    <ClInclude Include="XData.h" />
+    <ClInclude Include="XFunction.h" />
+    <ClInclude Include="XIOStream.h" />
+    <ClInclude Include="XVec.h" />
+    <ClInclude Include="CToric.h" />
+    <ClInclude Include="definition.h" />
+    <ClInclude Include="FittingBSpline.h" />
+    <ClInclude Include="Fragment.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="glad.h" />
+    <ClInclude Include="globalFunc.h" />
+    <ClInclude Include="MathUtil.h" />
+    <ClInclude Include="My3MF.h" />
+    <ClInclude Include="pointXd.h" />
+    <ClInclude Include="PolyIGA.h" />
+    <ClInclude Include="PSO.h" />
+    <ClInclude Include="PSOLCT.h" />
+    <ClInclude Include="RWGeometric.h" />
+    <ClInclude Include="SplineSurface.h" />
+    <ClInclude Include="SplineVolume.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Str.h" />
+    <ClInclude Include="ThreadPool.h" />
+    <QtMoc Include="readFileDialog.h" />
+    <QtMoc Include="fragmentDialog.h" />
+    <QtMoc Include="ChangeFineScaleDialog.h" />
+    <QtMoc Include="camerLocatonDialog.h" />
+    <QtMoc Include="singlePic.h" />
+    <QtMoc Include="modleSettingDialog.h" />
+    <ClInclude Include="MyDoc.h" />
+    <QtMoc Include="sensitiveSettingDialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="image\image.qrc" />
+    <QtRcc Include="shader\shader.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\lib3mf.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
